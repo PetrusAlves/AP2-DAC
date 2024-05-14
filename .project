@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>AP2_DAC</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.wst.common.project.facet.core.builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.wst.validation.validationbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jem.workbench.JavaEMFNature</nature>
+		<nature>org.eclipse.wst.common.modulecore.ModuleCoreNature</nature>
+		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/main/webapp/WEB-INF/lib/FastInfoset-1.2.15.jar</name>
+			<type>1</type>
+			<location>C:/Users/petru/OneDrive/Desktop/Area de Trabalho/Faculdade/Projetos Feitos Faculdade/projeto-jsf-pi/projeto-jsf-pi/src/main/webapp/WEB-INF/lib/FastInfoset-1.2.15.jar</location>
+		</link>
+		<link>
+			<name>src/main/webapp/WEB-INF/lib/activation-1.1.1.jar</name>
+			<type>1</type>
+			<location>C:/Users/petru/OneDrive/Desktop/Area de Trabalho/Faculdade/Projetos Feitos Faculdade/projeto-jsf-pi/projeto-jsf-pi/src/main/webapp/WEB-INF/lib/activation-1.1.1.jar</location>
+		</link>
+		<link>
+			<name>src/main/webapp/WEB-INF/lib/antlr-2.7.7.jar</name>
+			<type>1</type>
+			<location>C:/Users/petru/OneDrive/Desktop/Area de Trabalho/Faculdade/Projetos Feitos Faculdade/projeto-jsf-pi/projeto-jsf-pi/src/main/webapp/WEB-INF/lib/antlr-2.7.7.jar</location>
+		</link>
+		<link>
+			<name>src/main/webapp/WEB-INF/lib/byte-buddy-1.12.7.jar</name>
+			<type>1</type>
+			<location>C:/Users/petru/OneDrive/Desktop/Area de Trabalho/Faculdade/Projetos Feitos Faculdade/projeto-jsf-pi/projeto-jsf-pi/src/main/webapp/WEB-INF/lib/byte-buddy-1.12.7.jar</location>
+		</link>
+		<link>
+			<name>src/main/webapp/WEB-INF/lib/classmate-1.5.1.jar</name>
+			<type>1</type>
+			<location>C:/Users/petru/OneDrive/Desktop/Area de Trabalho/Faculdade/Projetos Feitos Faculdade/projeto-jsf-pi/projeto-jsf-pi/src/main/webapp/WEB-INF/lib/classmate-1.5.1.jar</location>
+		</link>
+		<link>
+			<name>src/main/webapp/WEB-INF/lib/hibernate-commons-annotations-5.1.2.Final.jar</name>
+			<type>1</type>
+			<location>C:/Users/petru/OneDrive/Desktop/Area de Trabalho/Faculdade/Projetos Feitos Faculdade/projeto-jsf-pi/projeto-jsf-pi/src/main/webapp/WEB-INF/lib/hibernate-commons-annotations-5.1.2.Final.jar</location>
+		</link>
+		<link>
+			<name>src/main/webapp/WEB-INF/lib/hibernate-core-5.6.5.Final.jar</name>
+			<type>1</type>
+			<location>C:/Users/petru/OneDrive/Desktop/Area de Trabalho/Faculdade/Projetos Feitos Faculdade/projeto-jsf-pi/projeto-jsf-pi/src/main/webapp/WEB-INF/lib/hibernate-core-5.6.5.Final.jar</location>
+		</link>
+		<link>
+			<name>src/main/webapp/WEB-INF/lib/istack-commons-runtime-3.0.7.jar</name>
+			<type>1</type>
+			<location>C:/Users/petru/OneDrive/Desktop/Area de Trabalho/Faculdade/Projetos Feitos Faculdade/projeto-jsf-pi/projeto-jsf-pi/src/main/webapp/WEB-INF/lib/istack-commons-runtime-3.0.7.jar</location>
+		</link>
+		<link>
+			<name>src/main/webapp/WEB-INF/lib/itextpdf-5.4.3.jar</name>
+			<type>1</type>
+			<location>C:/Users/petru/OneDrive/Desktop/Area de Trabalho/Faculdade/Projetos Feitos Faculdade/projeto-jsf-pi/projeto-jsf-pi/src/main/webapp/WEB-INF/lib/itextpdf-5.4.3.jar</location>
+		</link>
+		<link>
+			<name>src/main/webapp/WEB-INF/lib/jandex-2.4.2.Final.jar</name>
+			<type>1</type>
+			<location>C:/Users/petru/OneDrive/Desktop/Area de Trabalho/Faculdade/Projetos Feitos Faculdade/projeto-jsf-pi/projeto-jsf-pi/src/main/webapp/WEB-INF/lib/jandex-2.4.2.Final.jar</location>
+		</link>
+		<link>
+			<name>src/main/webapp/WEB-INF/lib/javax.activation-api-1.2.0.jar</name>
+			<type>1</type>
+			<location>C:/Users/petru/OneDrive/Desktop/Area de Trabalho/Faculdade/Projetos Feitos Faculdade/projeto-jsf-pi/projeto-jsf-pi/src/main/webapp/WEB-INF/lib/javax.activation-api-1.2.0.jar</location>
+		</link>
+		<link>
+			<name>src/main/webapp/WEB-INF/lib/javax.annotation-api-1.3.2.jar</name>
+			<type>1</type>
+			<location>C:/Users/petru/OneDrive/Desktop/Area de Trabalho/Faculdade/Projetos Feitos Faculdade/projeto-jsf-pi/projeto-jsf-pi/src/main/webapp/WEB-INF/lib/javax.annotation-api-1.3.2.jar</location>
+		</link>
+		<link>
+			<name>src/main/webapp/WEB-INF/lib/javax.mail.jar</name>
+			<type>1</type>
+			<location>C:/Users/petru/OneDrive/Desktop/Area de Trabalho/Faculdade/Projetos Feitos Faculdade/projeto-jsf-pi/projeto-jsf-pi/src/main/webapp/WEB-INF/lib/javax.mail.jar</location>
+		</link>
+		<link>
+			<name>src/main/webapp/WEB-INF/lib/javax.persistence-api-2.2.jar</name>
+			<type>1</type>
+			<location>C:/Users/petru/OneDrive/Desktop/Area de Trabalho/Faculdade/Projetos Feitos Faculdade/projeto-jsf-pi/projeto-jsf-pi/src/main/webapp/WEB-INF/lib/javax.persistence-api-2.2.jar</location>
+		</link>
+		<link>
+			<name>src/main/webapp/WEB-INF/lib/jaxb-api-2.3.1.jar</name>
+			<type>1</type>
+			<location>C:/Users/petru/OneDrive/Desktop/Area de Trabalho/Faculdade/Projetos Feitos Faculdade/projeto-jsf-pi/projeto-jsf-pi/src/main/webapp/WEB-INF/lib/jaxb-api-2.3.1.jar</location>
+		</link>
+		<link>
+			<name>src/main/webapp/WEB-INF/lib/jaxb-runtime-2.3.1.jar</name>
+			<type>1</type>
+			<location>C:/Users/petru/OneDrive/Desktop/Area de Trabalho/Faculdade/Projetos Feitos Faculdade/projeto-jsf-pi/projeto-jsf-pi/src/main/webapp/WEB-INF/lib/jaxb-runtime-2.3.1.jar</location>
+		</link>
+		<link>
+			<name>src/main/webapp/WEB-INF/lib/jboss-logging-3.4.3.Final.jar</name>
+			<type>1</type>
+			<location>C:/Users/petru/OneDrive/Desktop/Area de Trabalho/Faculdade/Projetos Feitos Faculdade/projeto-jsf-pi/projeto-jsf-pi/src/main/webapp/WEB-INF/lib/jboss-logging-3.4.3.Final.jar</location>
+		</link>
+		<link>
+			<name>src/main/webapp/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar</name>
+			<type>1</type>
+			<location>C:/Users/petru/OneDrive/Desktop/Area de Trabalho/Faculdade/Projetos Feitos Faculdade/projeto-jsf-pi/projeto-jsf-pi/src/main/webapp/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar</location>
+		</link>
+		<link>
+			<name>src/main/webapp/WEB-INF/lib/jsf-api-2.2.20.jar</name>
+			<type>1</type>
+			<location>C:/Users/petru/OneDrive/Desktop/Area de Trabalho/Faculdade/Projetos Feitos Faculdade/projeto-jsf-pi/projeto-jsf-pi/src/main/webapp/WEB-INF/lib/jsf-api-2.2.20.jar</location>
+		</link>
+		<link>
+			<name>src/main/webapp/WEB-INF/lib/jsf-impl-2.2.20.jar</name>
+			<type>1</type>
+			<location>C:/Users/petru/OneDrive/Desktop/Area de Trabalho/Faculdade/Projetos Feitos Faculdade/projeto-jsf-pi/projeto-jsf-pi/src/main/webapp/WEB-INF/lib/jsf-impl-2.2.20.jar</location>
+		</link>
+		<link>
+			<name>src/main/webapp/WEB-INF/lib/plantuml-pdf-1.2024.3.jar</name>
+			<type>1</type>
+			<location>C:/Users/petru/OneDrive/Desktop/Area de Trabalho/Faculdade/Projetos Feitos Faculdade/projeto-jsf-pi/projeto-jsf-pi/src/main/webapp/WEB-INF/lib/plantuml-pdf-1.2024.3.jar</location>
+		</link>
+		<link>
+			<name>src/main/webapp/WEB-INF/lib/postgresql-42.6.0.jar</name>
+			<type>1</type>
+			<location>C:/Users/petru/OneDrive/Desktop/Area de Trabalho/Faculdade/Projetos Feitos Faculdade/projeto-jsf-pi/projeto-jsf-pi/src/main/webapp/WEB-INF/lib/postgresql-42.6.0.jar</location>
+		</link>
+		<link>
+			<name>src/main/webapp/WEB-INF/lib/primefaces-10.0.0.jar</name>
+			<type>1</type>
+			<location>C:/Users/petru/OneDrive/Desktop/Area de Trabalho/Faculdade/Projetos Feitos Faculdade/projeto-jsf-pi/projeto-jsf-pi/src/main/webapp/WEB-INF/lib/primefaces-10.0.0.jar</location>
+		</link>
+		<link>
+			<name>src/main/webapp/WEB-INF/lib/servlet-api-6.0.39.jar</name>
+			<type>1</type>
+			<location>C:/Users/petru/OneDrive/Desktop/Area de Trabalho/Faculdade/Projetos Feitos Faculdade/projeto-jsf-pi/projeto-jsf-pi/src/main/webapp/WEB-INF/lib/servlet-api-6.0.39.jar</location>
+		</link>
+		<link>
+			<name>src/main/webapp/WEB-INF/lib/stax-ex-1.8.jar</name>
+			<type>1</type>
+			<location>C:/Users/petru/OneDrive/Desktop/Area de Trabalho/Faculdade/Projetos Feitos Faculdade/projeto-jsf-pi/projeto-jsf-pi/src/main/webapp/WEB-INF/lib/stax-ex-1.8.jar</location>
+		</link>
+		<link>
+			<name>src/main/webapp/WEB-INF/lib/txw2-2.3.1.jar</name>
+			<type>1</type>
+			<location>C:/Users/petru/OneDrive/Desktop/Area de Trabalho/Faculdade/Projetos Feitos Faculdade/projeto-jsf-pi/projeto-jsf-pi/src/main/webapp/WEB-INF/lib/txw2-2.3.1.jar</location>
+		</link>
+	</linkedResources>
+</projectDescription>

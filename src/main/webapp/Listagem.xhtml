@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+
+<h:head>
+	<title>Listagem dos Numeros</title>
+</h:head>
+
+<h:body>
+	<h1>Numeros Sorteados</h1>
+
+	<h:form id="formulario">
+		<p:growl id="msgs" showDetail="true" />
+
+		<p:dataTable id="tabela" value="#{jogoBean.lista}" var="item"
+			editable="true" style="margin-bottom:20px">
+			
+			<p:column headerText="Id">
+				<h:outputText value="#{item.id}" />
+			</p:column>
+			
+			<p:column headerText="Data do Cadastro">
+				<h:outputText value="#{item.dataCadastro}" />
+			</p:column>
+			
+			<p:column headerText="Valores">
+    			<h:outputText value="#{item.v1}, #{item.v2}, #{item.v3}, #{item.v4}, #{item.v5}" />
+			</p:column>
+
+			<p:column headerText="Número Sorteado">
+				<h:outputText value="#{item.numeroSorteado}" />
+			</p:column>
+
+			<p:column headerText="Editar">
+			    <p:commandButton action="#{jogoBean.excluir(item.id)}" icon="pi pi-pencil" styleClass="p-button-rounded p-button-success" />
+			</p:column>
+
+			<p:column headerText="Excluir">
+			    <p:commandButton action="#{jogoBean.excluir(item.id)}" 
+			    icon="pi pi-trash" styleClass="p-button-rounded p-button-danger"
+			    update="formulario" type="submit"/>
+			</p:column>
+
+			<p:column headerText="Maior">
+				<p:commandButton actionListener="#{jogoBean.exibirMaior(item)}"
+					value="Exibir Maior Numero" styleClass="rounded-button" type="submit" update="formulario" />
+			</p:column>
+
+			<p:column headerText="Resultado">
+				<p:commandButton action="#{jogoBean.verificarSorteado(item)}"
+					value="Verificar Sorteio" type="submit" styleClass="rounded-button" update="formulario" />
+			</p:column> 
+		
+		</p:dataTable>
+
+		<p:commandButton action="index.xhtml" value="Voltar para tela de cadastro" styleClass="rounded-button" />
+	</h:form>
+</h:body>
+
+</html>

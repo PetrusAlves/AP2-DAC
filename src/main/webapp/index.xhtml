@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+
+<h:head>
+	<title>Cadastro de Jogo</title>
+</h:head>
+
+<h:body>
+	<h1>Cadastro de Jogo</h1>
+
+	<h:form id="formulario">
+	
+	<p:growl id="msgs" showDetail="true" />
+	
+		<h:panelGrid columns="2">
+			<h:outputLabel for="v1" value="Valor 1" />
+			<h:inputText id="v1" value="#{jogoBean.jogo.v1}" />
+
+			<h:outputLabel for="v2" value="Valor 2" />
+			<h:inputText id="v2" value="#{jogoBean.jogo.v2}" />
+			
+
+			<h:outputLabel for="v3" value="Valor 3" />
+			<h:inputText id="v3" value="#{jogoBean.jogo.v3}" />
+			
+
+			<h:outputLabel for="v4" value="Valor 4" />
+			<h:inputText id="v4" value="#{jogoBean.jogo.v4}" />
+			
+
+			<h:outputLabel for="v5" value="Valor 5" />
+			<h:inputText id="v5" value="#{jogoBean.jogo.v5}" />
+			
+		</h:panelGrid>
+
+		<p:commandButton value="Salvar" action="#{jogoBean.salvar}" styleClass="rounded-button" update="msgs formulario" style="margin-top: 10px"/>
+		<p:commandButton action="Listagem" value="Ir para a listagem" style="margin-left: 60px; margin-top: " styleClass="rounded-button" />
+	</h:form>
+
+</h:body>
+
+</html>
